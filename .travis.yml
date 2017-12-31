@@ -1,9 +1,4 @@
-// .travis.yml
-
 sudo: required
-language: java   // Programming language
-jdk: oraclejdk8  // Java version number
-
-// Automatic mvn install and mvn test steps included in the steps.
-
+language: java
+jdk: oraclejdk8
 script: mvn clean install
